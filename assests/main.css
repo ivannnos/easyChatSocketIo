@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    left:0;
+    align-items: center;
+    height: 40px;
+    padding: 5px;
+    bottom:0;
+    backdrop-filter: blur(10px);
+    background: #efefef;
+}
+
+.form p{
+    height: 35px;
+    background: beige;
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.inputMessage {
+    height: 35px;
+    margin: 0 10px 0 10px;
+    border-radius: 30px;
+    padding: 15px;
+    border: 1px solid black;
+    padding: 0 25px;
+    width: 100%;
+}
+
+.btnSend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #222;
+    border: 1px;
+    width: 20%;
+    height: 35px;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.messages {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.messages > li {
+    padding: 10px;
+}
+
+.messages > li > span {
+    font-weight: 500;
+}
+
+.messages > li:nth-child(odd) {
+    background: #efefef;
+}
